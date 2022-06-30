@@ -1,0 +1,119 @@
+body{
+    background-color:  #edf2f5;
+    font-family: Helvetica;
+}
+hr{
+    background-color: #eff5fb;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+.title{
+    display: inline-block;
+    margin-left: 20px;
+}
+.top_panel{
+    position: sticky;
+    display: flex;
+    background-color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.top_option{
+
+}
+.cell{
+    background-color: white;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.dropbtn {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover {background-color: #3e8e41;}
+
+.select_semester {
+
+}
+.top_date{
+
+}
+.top_metrics{
+
+}
+.tab_container{
+    margin-top: 5px;
+    width:20%;
+    min-width: 200px;
+    height: 500px;
+    float: right;
+    background-color: white;
+    padding: 10px;
+}
+.error_class_header{
+    padding: 10px;
+    background-color: #007ac1;
+    color: white;
+}
+.home{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    width: 75%;
+    min-width: 0;
+}
+.metric_figure{
+    color: #0c9f8a;
+    font-weight: bold;
+}
+.pie_chart_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chart{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.pie1, .pie2 {
+    width:45%;
+    min-width:400px;
+    height: 300px;
+}
+
+.bar{
+    width: 100%;
+    min-width:500px;
+    height: 300px;
+}
+
+

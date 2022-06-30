@@ -1,0 +1,6 @@
+*projects should have tasks
+drop down for projects with tasks in them
+submission should be under a task list
+*chat should be everywhere
+*popup for chat on main page
+drag and drop for queries list in editor
